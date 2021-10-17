@@ -1,16 +1,16 @@
-////////////////////////
-// Modo de Operación: //
-////////////////////////
-Inclinometro/Goniometro desarrollado para la materia Medidas Electronicas I, en la UTN FRBA.
-Hardware: STM32F103C8TX, MPU6050, OLED 128x64: SSD1306, EEPROM: 24LC64.
-Grupo 3
-Curso: R4053
-Año: 2021
+//////////////////////// 
+// Modo de Operación: // 
+//////////////////////// 
+Inclinometro/Goniometro desarrollado para la materia Medidas Electronicas I, en la UTN FRBA. 
+Hardware: STM32F103C8TX, MPU6050, OLED 128x64: SSD1306, EEPROM: 24LC64. 
+Grupo 3 
+Curso: R4053 
+Año: 2021 
 
-////////////////////////
-// Modo de Operación: //
-////////////////////////
-•MODO1: "Medición"
+//////////////////////// 
+// Modo de Operación: // 
+//////////////////////// 
+•MODO1: "Medición" 
 Se encarga de mostrar la inclinacion del dispositivo segun el eje horizontal del dispositivo, y el que segun se ve en
 el silk-screen corresponde al eje Y del modulo.
 Este eje es capaz de medir desde -180° a +180° absolutos, aunque en las proximidades de esos extremos comienza a fallar,
