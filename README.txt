@@ -1,15 +1,21 @@
-/**********************/
-/* Modo de Operación: */
-/**********************/
 Inclinometro/Goniometro desarrollado para la materia Medidas Electronicas I, en la UTN FRBA.
-Hardware: STM32F103C8TX, MPU6050, OLED 128x64: SSD1306
 Grupo 3
 Curso: R4053
 Año: 2021
 
-/**********************/
-/* Modo de Operación: */
-/**********************/
+Hardware: STM32F103C8TX, MPU6050, OLED 128x64: SSD1306, EEPROM: 24LC64.
+
+♦Contenido del dispositivo:
+3 pulsadores: Estan pensados para funcionamiento mono-tecla, mono-usuario
+-Izquierdo: Se llama MODE
+-Central: Se llama ZERO/NEXT
+-Derecho: Se llama HOLD/SAVE
+1 tecla de encendido y apagado para la bateria
+1 puerto jack DC para alimentacion externa con 5VDC
+1 LED rojo en el frente justo arriba del display que avisa cada vez que se alcanza un angulo multiplo de 10
+
+♦Modo de Operación:
+
 •MODO1: "Medición"
 Se encarga de mostrar la inclinacion del dispositivo segun el eje horizontal del dispositivo, y el que segun se ve en
 el silk-screen corresponde al eje Y del modulo.
@@ -41,17 +47,9 @@ Si pulsamos el boton HOLD guardamos la medicion actual como el valor correspondi
 cuando estamos en el item nro 20 donde nos muestra "RESET CAL" en donde podemos resetear la calibracion guardada en la
 EEPROM con los valores iniciales de fabrica. 
 
-•Contenido del dispositivo:
-3 pulsadores: Estan pensados para funcionamiento mono-tecla, mono-usuario
--Izquierdo: Se llama MODE
--Central: Se llama ZERO/NEXT
--Derecho: Se llama HOLD/SAVE
-1 tecla de encendido y apagado para la bateria
-1 puerto jack DC para alimentacion externa con 5VDC
-1 LED rojo en el frente justo arriba del display que avisa cada vez que se alcanza un angulo multiplo de 10
 
 
 
-__________________________
+_____________________________
 
 Fernando Castro Canosa - 2021
