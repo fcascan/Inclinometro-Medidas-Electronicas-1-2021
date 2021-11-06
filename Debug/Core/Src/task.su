@@ -1,0 +1,11 @@
+task.c:50:9:antirebote	16	static
+task.c:118:6:lastAlarm	24	static
+task.c:145:9:alarmCheck	32	static
+task.c:161:8:corregir	56	static
+task.c:192:6:tareas_Init	8	static
+task.c:206:6:tarea_pulsadores	24	static
+task.c:226:6:tarea_modos	32	static
+task.c:312:6:tarea_display	80	static
+task.c:433:6:tarea_orienta	16	static
+task.c:442:6:tarea_led_blinking	16	static
+task.c:452:6:tarea_refresh	16	static

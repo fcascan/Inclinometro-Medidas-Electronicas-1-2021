@@ -1,0 +1,10 @@
+main.c:99:5:main	32	static
+main.c:214:6:tarea_iwdg	16	static
+main.c:221:6:falla_sistema	16	static,ignoring_inline_asm
+main.c:231:6:start_timer	4	static
+main.c:237:10:stop_timer	16	static
+main.c:250:6:SystemClock_Config	72	static
+main.c:289:13:MX_I2C1_Init	8	static
+main.c:323:13:MX_IWDG_Init	8	static
+main.c:352:13:MX_GPIO_Init	40	static
+main.c:394:6:Error_Handler	4	static
